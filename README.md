@@ -1,5 +1,5 @@
 Commands used:
-### Chnaged resolution And did compression
+### Changed resolution And did compression
 
 ```bash
 ffmpeg -i input.mp4 -c:v libx264 -crf 28 -preset medium -c:a aac -b:a 128k output_compressed.mp4
